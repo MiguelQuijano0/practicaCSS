@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+#grad4 {
+  height: 100px;
+  background: white;
+  background: -webkit-linear-gradient(90deg, white, #8cbef0);
+  background: -o-linear-gradient(90deg, white, #8cbef0);
+  background: -moz-linear-gradient(90deg, white, #8cbef0);
+  background: linear-gradient(90deg, white, #8cbef0);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  background-color: #1242e5; /* Green */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(62, 136, 248, 0.24),
+    0 17px 50px 0 rgba(3, 11, 109, 0.19);
+}
+
+/* Estilo de header */
+header {
+  background-color: white;
+  padding: 0px;
+  font-size: 15px;
+  color: #1242e5;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: #565758;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+
+/* Crear 2 columnas con la misma posición en la fila */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+h1 {
+  color: #130060;
+}
+p {
+  color: #565758;
+}
+.parentElement {
+  font-size: x-large;
+}
+.centrado {
+  text-align: center;
+}
+.drop {
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+nav {
+  float: left;
+  width: 50%;
+  height: 425px;
+  /* only for demonstration, should be removed */
+  background: #ffffff;
+  padding: 20px;
+}
+navdos {
+  float: center;
+  width: 50%;
+  height: 80px;
+  /* only for demonstration, should be removed */
+  background: #ffffff;
+  padding: 20px;
+}
+navtres {
+  float: center;
+  width: 50%;
+  height: 80px;
+  /* only for demonstration, should be removed */
+  background: #ffffff;
+  padding: 20px;
+}
+navf1 {
+  float: left;
+  width: 25%;
+  height: 150px;
+  /* only for demonstration, should be removed */
+  background: rgb(196, 229, 245);
+  padding: 20px;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #ffffff;
+  height: 425px;
+}
+table {
+  border-collapse: collapse;
+}
+#pricing-table {
+  margin: 100px auto;
+  text-align: left;
+  width: 892px; /* total computed width = 222 x 3 + 226 */
+}
+#pricing-table .plan {
+  font: 12px "Lucida Sans", "trebuchet MS", Arial, Helvetica;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.8);
+  background: #fff;
+  border: 1px solid #ddd;
+  color: rgb(15, 100, 228, 0.699);
+  padding: 20px;
+  width: 180px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */
+  float: left;
+  position: relative;
+}
+#pricing-table #most-popular {
+  z-index: 2;
+  top: -13px;
+  border-width: 3px;
+  padding: 30px 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 20px 0 10px -10px rgba(15, 100, 228, 0.699),
+    -20px 0 10px -10px rgba(15, 100, 228, 0.699);
+  -webkit-box-shadow: 20px 0 10px -10px rgba(15, 100, 228, 0.699),
+    -20px 0 10px -10px rgba(15, 100, 228, 0.699);
+  box-shadow: 20px 0 10px -10px rgba(15, 100, 228, 0.699),
+    -20px 0 10px -10px rgba(15, 100, 228, 0.699);
+}
+#pricing-table .plan:nth-child(1) {
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+#pricing-table .plan:nth-child(4) {
+  -moz-border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+#pricing-table h3 {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 20px;
+  margin: -20px -20px 50px -20px;
+  background-color: #eee;
+  background-image: -moz-linear-gradient(#fff, #eee);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#eee)
+  );
+  background-image: -webkit-linear-gradient(#fff, #eee);
+  background-image: -o-linear-gradient(#fff, #eee);
+  background-image: -ms-linear-gradient(#fff, #eee);
+  background-image: linear-gradient(#fff, #eee);
+}
+#pricing-table #most-popular h3 {
+  background-color: #ddd;
+  background-image: -moz-linear-gradient(#eee, #ddd);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#eee),
+    to(#ddd)
+  );
+  background-image: -webkit-linear-gradient(#eee, #ddd);
+  background-image: -o-linear-gradient(#eee, #ddd);
+  background-image: -ms-linear-gradient(#eee, #ddd);
+  background-image: linear-gradient(#eee, #ddd);
+  margin-top: -30px;
+  padding-top: 30px;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+#pricing-table .plan:nth-child(1) h3 {
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+}
+#pricing-table .plan:nth-child(4) h3 {
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;
+}
+#pricing-table h3 span {
+  display: block;
+  font: bold 25px/100px Georgia, Serif;
+  color: #777;
+  background: #fff;
+  border: 5px solid #fff;
+  height: 100px;
+  width: 100px;
+  margin: 10px auto -65px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+  -webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+  box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+}
+#pricing-table ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+#pricing-table li {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+.clear:before,
+.clear:after {
+  content: "";
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+.clear {
+  zoom: 1;
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+banner {
+  float: left;
+  background-color: #ffff;
+  padding: 50px;
+  color: white;
+}
+
+/* Estilo de footer */
+footer {
+  background-color: rgb(196, 229, 245);
+  padding: 55px;
+  color: white;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
